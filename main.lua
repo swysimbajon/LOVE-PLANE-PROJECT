@@ -49,7 +49,7 @@ function love.load()
         ['hurt'] = love.audio.newSource('hurt.wav', 'static'),
         ['score'] = love.audio.newSource('score.wav', 'static'),
         ['music'] = love.audio.newSource('marios_way.mp3', 'static'),
-        ['music'] = love.audio.newSource('pause.wav', 'static')
+        ['pause'] = love.audio.newSource('pause.wav', 'static')
     }
 
     sounds['music']:setLooping(true)
